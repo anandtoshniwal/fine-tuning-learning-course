@@ -19,10 +19,11 @@
 
 ## What comes next
 
-Next, learn how to freeze selected model parameters while continuing to train others, as a step toward fine-tuning.
+Continue with [Chapter 07: Freezing Parameters](../07_freezing_parameters/README.md) to keep selected values fixed while training others.
 
 Start in a fresh kernel and run the setup cell. The notebook has its own data; it does not depend on earlier notebook variables. Prerequisites: examples, features, targets, tensor shapes, batches, and epochs.
 
 - [Previous: Chapter 05](../05_pytorch_model_layers/README.md)
+- [Next: Chapter 07](../07_freezing_parameters/README.md)
 - [Revision](../revision/README.md)
 - [Course index](../README.md)

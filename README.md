@@ -16,11 +16,12 @@ then record the observation and explain why it happened.
 | 04 | [Optimizers and Momentum](04_optimizers_and_momentum/README.md) | [Lessons](04_optimizers_and_momentum/01_lessons.ipynb) | Covered | 22–27 |
 | 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | Covered | New material |
 | 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | Covered | New material |
+| 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | Covered | New material |
 
-**Current position:** Chapters 01–06 have been covered in the mentoring conversation,
-including dataset pairing, batch sizes, incomplete batches, shuffled order, and training
-with one update per batch. The next topic is freezing selected model parameters while
-training others. “Covered” records our progress; the revision notebook records any written answers and review notes.
+**Current position:** Chapters 01–07 have been covered in the mentoring conversation,
+including freezing and unfreezing parameters, selecting optimizer parameters, and the
+limits of fitting only the bias. The next topic is Adam and gradient-based update scaling.
+“Covered” records our progress; the revision notebook records any written answers and review notes.
 
 ## Run locally
 
@@ -94,6 +95,9 @@ FineTuning/
 ├── 06_datasets_and_dataloaders/
 │   ├── README.md
 │   └── 01_tensor_dataset.ipynb         ← covered
+├── 07_freezing_parameters/
+│   ├── README.md
+│   └── 01_freeze_weights.ipynb         ← covered
 ├── revision/
 │   ├── README.md
 │   └── 01_training_basics_revision.ipynb
