@@ -1,20 +1,25 @@
 # Chapter 06: Datasets and DataLoaders
 
-**Status: in progress.** Start with [01_tensor_dataset.ipynb](01_tensor_dataset.ipynb).
+**Status: covered.** Start with [01_tensor_dataset.ipynb](01_tensor_dataset.ipynb).
 
-**Current position:** Lesson 01 is prepared and awaiting review in the mentoring conversation.
+**Current position:** All six lessons have been run and reviewed in the mentoring conversation. The [chapter recap](01_tensor_dataset.ipynb#chapter-06-review) records the main distinctions and the two-epoch training results.
 
 ## Notebook order
 
-1. **[Organize examples in a dataset](01_tensor_dataset.ipynb):** wrap our familiar inputs and targets in `TensorDataset`, count examples, and retrieve a matching input–target pair.
+1. **[Datasets and batches](01_tensor_dataset.ipynb):** wrap our familiar inputs and targets in `TensorDataset`, count examples, and retrieve matching pairs, and then group examples into batches.
 
 ## Lessons in notebook 01
 
 1. Keep inputs and targets together and retrieve one example by index.
+2. Use `DataLoader` to create batches of two and inspect inputs, targets, and shapes.
+3. Keep an incomplete final batch and compare its size and tensor shapes.
+4. Compare `drop_last=False` with `drop_last=True` and count returned examples separately from dataset size.
+5. Shuffle example order across loader passes while preserving matching targets.
+6. Train with the loader, count one update per batch, and evaluate full training loss after each epoch.
 
 ## What comes next
 
-After this lesson, introduce `DataLoader` to combine dataset examples into batches. Then revisit batch shapes, shuffling, and a training loop, one lesson at a time.
+Next, learn how to freeze selected model parameters while continuing to train others, as a step toward fine-tuning.
 
 Start in a fresh kernel and run the setup cell. The notebook has its own data; it does not depend on earlier notebook variables. Prerequisites: examples, features, targets, tensor shapes, batches, and epochs.
 

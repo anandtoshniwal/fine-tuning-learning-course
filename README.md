@@ -15,12 +15,12 @@ then record the observation and explain why it happened.
 | 03 | [Validation and Generalization](03_validation_and_generalization/README.md) | [Lessons](03_validation_and_generalization/01_lessons.ipynb) | Covered | 17–21 |
 | 04 | [Optimizers and Momentum](04_optimizers_and_momentum/README.md) | [Lessons](04_optimizers_and_momentum/01_lessons.ipynb) | Covered | 22–27 |
 | 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | Covered | New material |
-| 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [TensorDataset lesson](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | In progress | New material |
+| 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | Covered | New material |
 
-**Current position:** Chapters 01–05 have been covered in the mentoring conversation,
-including the `no_grad` review and the checkpoint restoration comparison. Continue with
-Chapter 06, notebook 01, Lesson 01 to organize inputs and targets in a dataset.
-“Covered” records our progress; the revision notebook records any written answers and review notes.
+**Current position:** Chapters 01–06 have been covered in the mentoring conversation,
+including dataset pairing, batch sizes, incomplete batches, shuffled order, and training
+with one update per batch. The next topic is freezing selected model parameters while
+training others. “Covered” records our progress; the revision notebook records any written answers and review notes.
 
 ## Run locally
 
@@ -50,6 +50,12 @@ Small example checkpoints are included for the save-and-restore lessons. Running
 For later chapters, start from a fresh kernel and run the local setup cell. Notebook
 kernel variables are not automatically shared across files. PyTorch is already installed
 in our current environment; Chapter 01 includes optional setup commands for a new environment.
+
+## Saving chapter progress to GitHub
+
+After each chapter is completed and reviewed in the mentoring conversation, update the progress in the course and chapter guides, verify the changed notebooks and navigation, then commit and push the chapter's changes to `main` in [the public course repository](https://github.com/anandtoshniwal/fine-tuning-learning-course).
+
+Changes for a chapter in progress stay local until that chapter is complete, unless an earlier push is requested.
 
 ## Revision and reference
 
@@ -87,7 +93,7 @@ FineTuning/
 │       └── two_input_momentum_training.pt
 ├── 06_datasets_and_dataloaders/
 │   ├── README.md
-│   └── 01_tensor_dataset.ipynb         ← current: Lesson 01
+│   └── 01_tensor_dataset.ipynb         ← covered
 ├── revision/
 │   ├── README.md
 │   └── 01_training_basics_revision.ipynb
