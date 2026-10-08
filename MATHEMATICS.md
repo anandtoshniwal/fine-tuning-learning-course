@@ -2,7 +2,9 @@
 
 [Course index](README.md)
 
-**Current learning step:** begin with Chapter 01's mathematics companion, Section 1. The existing programming chapters are covered; these new mathematical companions are prepared and will be reviewed one section at a time before introducing Adam.
+**Optional reference for later.** Continue the programming-led mentoring course, including Adam, without completing these notes first. Introduce a little arithmetic when it explains the current code; formal notation and derivations can wait. The existing programming chapters are covered, while these reference notes have not been reviewed in the mentoring conversation.
+
+The teaching sequence is: one idea in everyday words → a small code example → observe the output → discuss one question. When mathematics helps, first use actual numbers and familiar words. Introduce a symbol only after its meaning is understood. No formal mathematics background is assumed.
 
 Mathematics gives precise names to the quantities and relationships in a problem. Turning a problem into equations still requires decisions: what information is available, what outcome matters, which relationships we assume, and what errors we want to penalize. An equation is useful only if those choices match the problem.
 

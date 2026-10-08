@@ -4,10 +4,10 @@ Understand parameters, predictions, loss, gradients, learning rate, and repeated
 
 ## Mathematical view
 
-Open [00_math_intuition.ipynb](00_math_intuition.ipynb) beside the programming lessons.
+[00_math_intuition.ipynb](00_math_intuition.ipynb) is an optional reference for later.
 Prediction, mean squared error, gradients as local slopes, and update rules.
 
-**Math status: prepared; mentoring review pending.** Start with words and worked numbers, then read the formula and run its matching code. Each related programming lesson links to the relevant section. The programming chapter's covered status records our earlier work.
+**Math status: optional reference, not yet reviewed.** Continue the programming lessons without requiring this notebook first. Use a short arithmetic explanation only when it helps the current experiment; revisit formal notation later. Each related programming lesson links to the reference section. The programming chapter's covered status records our earlier work.
 
 ## Start here
 

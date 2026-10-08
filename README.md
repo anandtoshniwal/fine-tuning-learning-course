@@ -8,26 +8,28 @@ then record the observation and explain why it happened.
 
 ## Learning order
 
-| Order | Chapter | Notebook | Mathematics | Status | Original sections |
+| Order | Chapter | Notebook | Optional mathematics | Status | Original sections |
 |---|---|---|---|---|---|
-| 01 | [Training Foundations](01_training_foundations/README.md) | [Lessons](01_training_foundations/01_lessons.ipynb) | [Math companion](01_training_foundations/00_math_intuition.ipynb) | Covered | 1–11 |
-| 02 | [Batches and Epochs](02_batches_and_epochs/README.md) | [Lessons](02_batches_and_epochs/01_lessons.ipynb) | [Math companion](02_batches_and_epochs/00_math_intuition.ipynb) | Covered | 12–16 |
-| 03 | [Validation and Generalization](03_validation_and_generalization/README.md) | [Lessons](03_validation_and_generalization/01_lessons.ipynb) | [Math companion](03_validation_and_generalization/00_math_intuition.ipynb) | Covered | 17–21 |
-| 04 | [Optimizers and Momentum](04_optimizers_and_momentum/README.md) | [Lessons](04_optimizers_and_momentum/01_lessons.ipynb) | [Math companion](04_optimizers_and_momentum/00_math_intuition.ipynb) | Covered | 22–27 |
-| 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | [Math companion](05_pytorch_model_layers/00_math_intuition.ipynb) | Covered | New material |
-| 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | [Math companion](06_datasets_and_dataloaders/00_math_intuition.ipynb) | Covered | New material |
-| 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | [Math companion](07_freezing_parameters/00_math_intuition.ipynb) | Covered | New material |
+| 01 | [Training Foundations](01_training_foundations/README.md) | [Lessons](01_training_foundations/01_lessons.ipynb) | [Optional math](01_training_foundations/00_math_intuition.ipynb) | Covered | 1–11 |
+| 02 | [Batches and Epochs](02_batches_and_epochs/README.md) | [Lessons](02_batches_and_epochs/01_lessons.ipynb) | [Optional math](02_batches_and_epochs/00_math_intuition.ipynb) | Covered | 12–16 |
+| 03 | [Validation and Generalization](03_validation_and_generalization/README.md) | [Lessons](03_validation_and_generalization/01_lessons.ipynb) | [Optional math](03_validation_and_generalization/00_math_intuition.ipynb) | Covered | 17–21 |
+| 04 | [Optimizers and Momentum](04_optimizers_and_momentum/README.md) | [Lessons](04_optimizers_and_momentum/01_lessons.ipynb) | [Optional math](04_optimizers_and_momentum/00_math_intuition.ipynb) | Covered | 22–27 |
+| 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | [Optional math](05_pytorch_model_layers/00_math_intuition.ipynb) | Covered | New material |
+| 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | [Optional math](06_datasets_and_dataloaders/00_math_intuition.ipynb) | Covered | New material |
+| 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | [Optional math](07_freezing_parameters/00_math_intuition.ipynb) | Covered | New material |
 
 **Current position:** The programming lessons in Chapters 01–07 have been covered.
-We are now reviewing their mathematical perspective before introducing Adam. Start with
-[Chapter 01's math companion, Section 1](01_training_foundations/00_math_intuition.ipynb#prediction).
-All seven math companions are prepared; their mentoring review is pending. “Covered” records the programming progress; the revision notebook records any written answers and review notes.
+Continue toward Adam using the programming-led mentoring approach. The mathematical
+companions are optional references for later; reviewing them is not required before the
+next programming lesson. “Covered” records the programming progress; the revision notebook records any written answers and review notes.
 
 ## Connect problems, mathematics, and code
 
 Use [MATHEMATICS.md](MATHEMATICS.md) for the problem-to-equation workflow, a symbol glossary, and links to all seven companions. Each chapter has a `00_math_intuition.ipynb` with plain-language explanations, worked numbers, formulas, short runnable examples, and reflection questions. Links beside the related lesson headings take you directly to the matching explanation.
 
-Read one section at a time. New topics should follow the same pattern: problem statement → mathematical model → worked example → code. Formula notation and calculus ideas are introduced when needed; the companions are not an extra prerequisite course to finish all at once.
+Our mentoring approach starts with a plain-language idea, one small code experiment, its observed output, and one understanding check. Introduce a small arithmetic explanation only when it helps that experiment. Use familiar words such as input, prediction, weight, and bias before introducing formal symbols.
+
+Keep the mathematical companions for later reference. Do not require a full mathematics review before continuing. Formal derivatives, matrix notation, and longer derivations can wait until the related programming behavior is familiar and the explanation is useful. No formal mathematics background is assumed.
 
 ## Run locally
 
