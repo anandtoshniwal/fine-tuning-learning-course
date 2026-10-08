@@ -1,0 +1,3 @@
+# Teaching environment used for the current lessons.
+torch==2.6.0
+jupyterlab>=4,<5
