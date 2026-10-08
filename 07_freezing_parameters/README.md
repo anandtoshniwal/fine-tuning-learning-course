@@ -4,6 +4,13 @@
 
 **Current position:** All five lessons have been run and reviewed in the mentoring conversation. The [chapter recap](01_freeze_weights.ipynb#chapter-07-review) records gradient flags, optimizer registration, and the limits of bias-only training.
 
+## Mathematical view
+
+Open [00_math_intuition.ipynb](00_math_intuition.ipynb) beside the programming lessons.
+Constrained optimization, the bias-only minimum, and non-unique fitting parameters.
+
+**Math status: prepared; mentoring review pending.** Start with words and worked numbers, then read the formula and run its matching code. Each related programming lesson links to the relevant section. The programming chapter's covered status records our earlier work.
+
 ## Notebook order
 
 1. **[Freeze weights and train the bias](01_freeze_weights.ipynb):** inspect which parameters receive gradients when the two weights are frozen and the bias remains trainable.

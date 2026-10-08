@@ -8,20 +8,26 @@ then record the observation and explain why it happened.
 
 ## Learning order
 
-| Order | Chapter | Notebook | Status | Original sections |
-|---|---|---|---|---|
-| 01 | [Training Foundations](01_training_foundations/README.md) | [Lessons](01_training_foundations/01_lessons.ipynb) | Covered | 1–11 |
-| 02 | [Batches and Epochs](02_batches_and_epochs/README.md) | [Lessons](02_batches_and_epochs/01_lessons.ipynb) | Covered | 12–16 |
-| 03 | [Validation and Generalization](03_validation_and_generalization/README.md) | [Lessons](03_validation_and_generalization/01_lessons.ipynb) | Covered | 17–21 |
-| 04 | [Optimizers and Momentum](04_optimizers_and_momentum/README.md) | [Lessons](04_optimizers_and_momentum/01_lessons.ipynb) | Covered | 22–27 |
-| 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | Covered | New material |
-| 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | Covered | New material |
-| 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | Covered | New material |
+| Order | Chapter | Notebook | Mathematics | Status | Original sections |
+|---|---|---|---|---|---|
+| 01 | [Training Foundations](01_training_foundations/README.md) | [Lessons](01_training_foundations/01_lessons.ipynb) | [Math companion](01_training_foundations/00_math_intuition.ipynb) | Covered | 1–11 |
+| 02 | [Batches and Epochs](02_batches_and_epochs/README.md) | [Lessons](02_batches_and_epochs/01_lessons.ipynb) | [Math companion](02_batches_and_epochs/00_math_intuition.ipynb) | Covered | 12–16 |
+| 03 | [Validation and Generalization](03_validation_and_generalization/README.md) | [Lessons](03_validation_and_generalization/01_lessons.ipynb) | [Math companion](03_validation_and_generalization/00_math_intuition.ipynb) | Covered | 17–21 |
+| 04 | [Optimizers and Momentum](04_optimizers_and_momentum/README.md) | [Lessons](04_optimizers_and_momentum/01_lessons.ipynb) | [Math companion](04_optimizers_and_momentum/00_math_intuition.ipynb) | Covered | 22–27 |
+| 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | [Math companion](05_pytorch_model_layers/00_math_intuition.ipynb) | Covered | New material |
+| 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | [Math companion](06_datasets_and_dataloaders/00_math_intuition.ipynb) | Covered | New material |
+| 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | [Math companion](07_freezing_parameters/00_math_intuition.ipynb) | Covered | New material |
 
-**Current position:** Chapters 01–07 have been covered in the mentoring conversation,
-including freezing and unfreezing parameters, selecting optimizer parameters, and the
-limits of fitting only the bias. The next topic is Adam and gradient-based update scaling.
-“Covered” records our progress; the revision notebook records any written answers and review notes.
+**Current position:** The programming lessons in Chapters 01–07 have been covered.
+We are now reviewing their mathematical perspective before introducing Adam. Start with
+[Chapter 01's math companion, Section 1](01_training_foundations/00_math_intuition.ipynb#prediction).
+All seven math companions are prepared; their mentoring review is pending. “Covered” records the programming progress; the revision notebook records any written answers and review notes.
+
+## Connect problems, mathematics, and code
+
+Use [MATHEMATICS.md](MATHEMATICS.md) for the problem-to-equation workflow, a symbol glossary, and links to all seven companions. Each chapter has a `00_math_intuition.ipynb` with plain-language explanations, worked numbers, formulas, short runnable examples, and reflection questions. Links beside the related lesson headings take you directly to the matching explanation.
+
+Read one section at a time. New topics should follow the same pattern: problem statement → mathematical model → worked example → code. Formula notation and calculus ideas are introduced when needed; the companions are not an extra prerequisite course to finish all at once.
 
 ## Run locally
 
@@ -69,20 +75,26 @@ Changes for a chapter in progress stay local until that chapter is complete, unl
 ```text
 FineTuning/
 ├── README.md                         ← course index and learning order
+├── MATHEMATICS.md                     ← translate problems into mathematics
 ├── 01_training_foundations/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   └── 01_lessons.ipynb
 ├── 02_batches_and_epochs/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   └── 01_lessons.ipynb
 ├── 03_validation_and_generalization/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   └── 01_lessons.ipynb
 ├── 04_optimizers_and_momentum/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   └── 01_lessons.ipynb
 ├── 05_pytorch_model_layers/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   ├── 01_linear_layer.ipynb
 │   ├── 02_training_layer.ipynb
 │   ├── 03_two_input_features.ipynb
@@ -94,9 +106,11 @@ FineTuning/
 │       └── two_input_momentum_training.pt
 ├── 06_datasets_and_dataloaders/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   └── 01_tensor_dataset.ipynb         ← covered
 ├── 07_freezing_parameters/
 │   ├── README.md
+│   ├── 00_math_intuition.ipynb         ← companion for this chapter
 │   └── 01_freeze_weights.ipynb         ← covered
 ├── revision/
 │   ├── README.md

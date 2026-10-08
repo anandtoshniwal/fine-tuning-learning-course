@@ -2,6 +2,13 @@
 
 Understand how batch size, example order, steps, and epochs change training.
 
+## Mathematical view
+
+Open [00_math_intuition.ipynb](00_math_intuition.ipynb) beside the programming lessons.
+Batch mean gradients, order-dependent updates, and epoch arithmetic.
+
+**Math status: prepared; mentoring review pending.** Start with words and worked numbers, then read the formula and run its matching code. Each related programming lesson links to the relevant section. The programming chapter's covered status records our earlier work.
+
 ## Start here
 
 Open [01_lessons.ipynb](01_lessons.ipynb) and run its cells from top to bottom.
