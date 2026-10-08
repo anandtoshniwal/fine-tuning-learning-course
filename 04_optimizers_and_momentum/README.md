@@ -2,13 +2,6 @@
 
 Use SGD, inspect momentum, compare learning rates at fixed budgets, and load selected checkpoints.
 
-## Mathematical view
-
-[00_math_intuition.ipynb](00_math_intuition.ipynb) is an optional reference for later.
-Parameter vectors, momentum recurrence, and saved optimizer history.
-
-**Math status: optional reference, not yet reviewed.** Continue the programming lessons without requiring this notebook first. Use a short arithmetic explanation only when it helps the current experiment; revisit formal notation later. Each related programming lesson links to the reference section. The programming chapter's covered status records our earlier work.
-
 ## Start here
 
 Open [01_lessons.ipynb](01_lessons.ipynb) and run its cells from top to bottom.

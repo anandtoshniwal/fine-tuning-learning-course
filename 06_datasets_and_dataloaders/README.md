@@ -4,13 +4,6 @@
 
 **Current position:** All six lessons have been run and reviewed in the mentoring conversation. The [chapter recap](01_tensor_dataset.ipynb#chapter-06-review) records the main distinctions and the two-epoch training results.
 
-## Mathematical view
-
-[00_math_intuition.ipynb](00_math_intuition.ipynb) is an optional reference for later.
-Paired indexes, shuffling permutations, rounded counts, and weighted means.
-
-**Math status: optional reference, not yet reviewed.** Continue the programming lessons without requiring this notebook first. Use a short arithmetic explanation only when it helps the current experiment; revisit formal notation later. Each related programming lesson links to the reference section. The programming chapter's covered status records our earlier work.
-
 ## Notebook order
 
 1. **[Datasets and batches](01_tensor_dataset.ipynb):** wrap our familiar inputs and targets in `TensorDataset`, count examples, and retrieve matching pairs, and then group examples into batches.

@@ -4,13 +4,6 @@
 
 **Current position:** All six notebooks have been covered in the mentoring conversation, including notebook 05, Lesson 13. Restoring model and optimizer state reproduced uninterrupted training in our fixed-data momentum experiment. Continue with [Chapter 06: Datasets and DataLoaders](../06_datasets_and_dataloaders/README.md).
 
-## Mathematical view
-
-[00_math_intuition.ipynb](00_math_intuition.ipynb) is an optional reference for later.
-Weighted sums, matrix shapes, per-feature gradients, and model state.
-
-**Math status: optional reference, not yet reviewed.** Continue the programming lessons without requiring this notebook first. Use a short arithmetic explanation only when it helps the current experiment; revisit formal notation later. Each related programming lesson links to the reference section. The programming chapter's covered status records our earlier work.
-
 ## Notebook order
 
 1. **Our model as a PyTorch layer:** inspect parameters, arrange examples and features,
