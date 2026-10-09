@@ -18,10 +18,11 @@
 
 ## What comes next
 
-Next, introduce Adam and study how gradient history changes the scaling of parameter updates.
+Continue with [Chapter 08: Adam Optimizer](../08_adam_optimizer/README.md), starting with a small first-update comparison.
 
 Start in a fresh kernel and run Setup. Prerequisites: `Linear`, parameters, gradient calculation, SGD, and `torch.no_grad()`.
 
 - [Previous: Chapter 06](../06_datasets_and_dataloaders/README.md)
+- [Next: Chapter 08](../08_adam_optimizer/README.md)
 - [Revision](../revision/README.md)
 - [Course index](../README.md)

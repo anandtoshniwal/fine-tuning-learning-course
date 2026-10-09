@@ -17,11 +17,13 @@ then record the observation and explain why it happened.
 | 05 | [PyTorch Model Layers](05_pytorch_model_layers/README.md) | [Notebook order](05_pytorch_model_layers/README.md#notebook-order) | Covered | New material |
 | 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | Covered | New material |
 | 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | Covered | New material |
+| 08 | [Adam Optimizer](08_adam_optimizer/README.md) | [Adam basics](08_adam_optimizer/01_adam_basics.ipynb) | Covered | New material |
 
-**Current position:** Chapters 01–07 have been covered in the mentoring conversation,
-including freezing and unfreezing parameters, selecting optimizer parameters, and the
-limits of fitting only the bias. The next topic is Adam and gradient-based update scaling.
-“Covered” records our progress; the revision notebook records any written answers and review notes.
+**Current position:** Chapters 01–08 have been covered in the mentoring conversation.
+Chapter 08's [recap](08_adam_optimizer/01_adam_basics.ipynb#chapter-08-review) records Adam's
+history and the SGD comparison. Next, introduce weight decay and AdamW through small
+programming experiments. “Covered” records our progress; the revision notebook records
+any written answers and review notes.
 
 ## Run locally
 
@@ -102,6 +104,9 @@ FineTuning/
 ├── 07_freezing_parameters/
 │   ├── README.md
 │   └── 01_freeze_weights.ipynb         ← covered
+├── 08_adam_optimizer/
+│   ├── README.md
+│   └── 01_adam_basics.ipynb           ← covered
 ├── revision/
 │   ├── README.md
 │   └── 01_training_basics_revision.ipynb
