@@ -21,10 +21,11 @@
 
 ## What comes next
 
-Introduce weight decay with a small programming experiment, then explore how AdamW uses it. The next chapter will be added as we work through those lessons.
+Continue with [Chapter 09: Weight Decay and AdamW](../09_weight_decay_and_adamw/README.md), starting with an SGD update whose prediction-loss gradient is zero.
 
 Use the programming-led mentoring approach: one idea in words, one small experiment, its output, and one understanding check. Start in a fresh kernel and run Setup. Prerequisites: `Linear`, mean squared loss, gradients, SGD, and the familiar training sequence.
 
 - [Previous: Chapter 07](../07_freezing_parameters/README.md)
+- [Next: Chapter 09](../09_weight_decay_and_adamw/README.md)
 - [Revision](../revision/README.md)
 - [Course index](../README.md)

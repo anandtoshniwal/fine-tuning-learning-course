@@ -18,12 +18,14 @@ then record the observation and explain why it happened.
 | 06 | [Datasets and DataLoaders](06_datasets_and_dataloaders/README.md) | [Datasets and batches](06_datasets_and_dataloaders/01_tensor_dataset.ipynb) | Covered | New material |
 | 07 | [Freezing Parameters](07_freezing_parameters/README.md) | [Freeze weights](07_freezing_parameters/01_freeze_weights.ipynb) | Covered | New material |
 | 08 | [Adam Optimizer](08_adam_optimizer/README.md) | [Adam basics](08_adam_optimizer/01_adam_basics.ipynb) | Covered | New material |
+| 09 | [Weight Decay and AdamW](09_weight_decay_and_adamw/README.md) | [Weight decay basics](09_weight_decay_and_adamw/01_weight_decay.ipynb) | Covered | New material |
 
-**Current position:** Chapters 01–08 have been covered in the mentoring conversation.
-Chapter 08's [recap](08_adam_optimizer/01_adam_basics.ipynb#chapter-08-review) records Adam's
-history and the SGD comparison. Next, introduce weight decay and AdamW through small
-programming experiments. “Covered” records our progress; the revision notebook records
-any written answers and review notes.
+**Current position:** Chapters 01–09 have been covered in the mentoring conversation.
+Chapter 09's [recap](09_weight_decay_and_adamw/01_weight_decay.ipynb#chapter-09-review)
+records weight decay, AdamW, and the distinction between gradients, optimizer memories,
+and parameter values. Next, introduce learning-rate schedules with small programming
+experiments. “Covered” records our progress; the revision notebook records any written
+answers and review notes.
 
 ## Run locally
 
@@ -107,6 +109,9 @@ FineTuning/
 ├── 08_adam_optimizer/
 │   ├── README.md
 │   └── 01_adam_basics.ipynb           ← covered
+├── 09_weight_decay_and_adamw/
+│   ├── README.md
+│   └── 01_weight_decay.ipynb           ← covered
 ├── revision/
 │   ├── README.md
 │   └── 01_training_basics_revision.ipynb
